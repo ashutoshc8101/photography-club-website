@@ -1,0 +1,36 @@
+.club-intro {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.club-intro-heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.col-md-6 {
+  margin-top: 30px;
+}
+
+.photography-club {
+  background-image: url("../assest/pp.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  color: white;
+}
+.movieMaking-club {
+  background-image: url("../assest/pp.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  color: white;
+}
+
+.club-heading {
+  padding-top: 25px;
+}
+
+.club-text {
+  padding: 20px;
+}

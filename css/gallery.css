@@ -1,0 +1,62 @@
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  padding: 2.5px;
+
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.gallery{
+    width: 80%;
+    margin: 80px auto;  
+    text-align: center; 
+}
+
+
+.gallery-text{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gallery-image{
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .grid-sizer,
+.grid-item {
+  width: 50%;
+}
+}
+
+@media (max-width: 300px) {
+  .gallery {
+    width: 80%;
+    margin-bottom: 100px;
+  }
+  .grid-sizer,
+.grid-item {
+  width: 80%;
+}
+}
+
+
+
+.grid-item figure{
+  padding: 0;
+  margin: 0 ;
+}

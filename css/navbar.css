@@ -1,0 +1,16 @@
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.social-media{
+    font-size: 25px;
+}
+
+.social-media .fab{
+    padding-right: 10px;
+}
+
+.social-media .fab:hover{
+    color: blue;
+    cursor: pointer;
+}
